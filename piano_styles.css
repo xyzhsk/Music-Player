@@ -5,18 +5,29 @@ body {
   
   h1 {
     font-size: 5rem;
-    color: #DBEDF3;
-    font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
+    color: #FBF2AF ;
+    font-family: cursive;
+    text-shadow: 5px 0 #250B0B;
+    margin-bottom: 2px;
   
   }
+  .info
+  {
+    color: white;
+    font-size: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+
+
+  }
+  
   @keyframes fade-inout {
     0%{ opacity: 1;}
     100%{ opacity: 0.5;}
   }
   .fade {
     animation: fade-inout 0.1s infinite alternate;
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: 0px;
     
   }
   
@@ -38,8 +49,13 @@ body {
   width:40px;
   margin-right: 5px;
 }
-
-  
+.con:hover{
+  transform: scale(1.5);
+}
+  .set
+  {
+    margin-top: 0px;
+  }
   
   .C {
     background-image: url("Piano Pictures/white.png");
@@ -137,10 +153,27 @@ body {
     padding-top: 80px;
     
     border-radius: 5px;
-    margin: 5px;
-    
+    margin-left: 5px;
+    margin-right: 5px;
+     
   }
   .note:hover{
     transform: scale(1.2);
   }
+  .back
+  {
   
+  border-radius: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+   
+    background-color: #0096FF;
+    margin-left:1200px;
+    margin-top: 0px;
+}
+.back:hover
+{
+  transform: scale(1.1);
+}
